@@ -1,0 +1,9 @@
+// 设置边框属性的mixin命令
+@mixin border1px($size, $type, $color) {
+  border: $size $type $color;
+}
+
+// 盒子阴影
+@mixin boxShadow($s1, $s2, $type, $exten, $color) {
+  box-shadow: $s1 $s2 $type $exten $color;
+}

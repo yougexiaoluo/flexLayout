@@ -1,7 +1,8 @@
 /* 
   初始化样式文件
 */
-
+html,
+body,
 h1,
 h2,
 h3,
@@ -30,7 +31,7 @@ tfoot,
 audio,
 video,
 header,
-select,
+section,
 main,
 article,
 aside,
@@ -46,7 +47,7 @@ html {
   height: 100%;
   width: 100%;
   // 将移除的内容进行隐藏
-  overflow: hidden;
+  // overflow: hidden;
 
   font-family: "Mcrosoft YaHei", "STHeiti", "SimSun", "KaiTi";
 }
@@ -111,7 +112,7 @@ em {
 // html5 新增的语义化标签需要转换成块级标签
 header,
 nav,
-select,
+section,
 main,
 article,
 aside,
