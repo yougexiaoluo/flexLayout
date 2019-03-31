@@ -1,7 +1,7 @@
+@charset "UTF-8";
 /* 
   初始化样式文件
 */
-
 h1,
 h2,
 h3,
@@ -40,67 +40,51 @@ footer {
   padding: 0;
 }
 
-// 取消滚动条的默认样式
 body,
 html {
   height: 100%;
   width: 100%;
-  // 将移除的内容进行隐藏
   overflow: hidden;
-
   font-family: "Mcrosoft YaHei", "STHeiti", "SimSun", "KaiTi";
 }
 
 html {
-  // 初始化字体大小，为了有利于使用rem单位进行布局
   font-size: 100px;
 }
 
-//清除a标签默认样式
-
 a {
   color: #000;
-  //去掉a标签在移动端点击背景颜色
   -webkit-tap-highlight-color: none;
   outline-color: none;
   text-decoration: none;
 }
-
-//重置img 标签 底部出现3px空白间隙
 
 img {
   vertical-align: middle;
   border: 0 none;
 }
 
-//清除input标签点击时外轮廓高亮
 input {
   outline-color: none;
 }
-
-// 清除列表前的小黑点
 
 ul,
 li {
   list-style: none;
 }
 
-//重置i,em标签字体类型
 i,
 em {
   font-family: normal;
 }
 
-// 清除浮动
-
 .clearfix {
-  //只有IE能够识别
   *zoom: 1;
 }
 
 .clearfix:after,
 .clearfix:before {
-  content: '';
+  content: "";
   display: block;
   overflow: hidden;
   visibility: hidden;
@@ -108,7 +92,6 @@ em {
   height: 0;
 }
 
-// html5 新增的语义化标签需要转换成块级标签
 header,
 nav,
 select,
@@ -118,3 +101,8 @@ aside,
 footer {
   display: block;
 }
+
+/* 首页样式 Start { */
+/* 首页样式 Start } */
+
+/*# sourceMappingURL=index.css.map */
